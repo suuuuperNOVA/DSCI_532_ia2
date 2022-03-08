@@ -78,7 +78,7 @@ app$layout(
         id='col-select',
         options = list(list(label = 'Life Expectancy', value = 'lifeExp'),
                        list(label = "Population", value = 'pop'),
-                       list(label = 'gdpPercap', value = 'gdpPercap')),
+                       list(label = 'GDP per Capita', value = 'gdpPercap')),
         value = 'pop'
       ),
       dccGraph(id='plot-area')
